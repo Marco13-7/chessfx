@@ -1,4 +1,4 @@
-package chessfx.model;
+package main.chessfx.model;
 
 import java.util.ArrayList;
 

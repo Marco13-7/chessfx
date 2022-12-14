@@ -1,6 +1,6 @@
-package chessfx.model.pieces;
+package main.chessfx.model.pieces;
 
-import chessfx.model.Piece;
+import main.chessfx.model.Piece;
 
 public class Pawn extends Piece {
 
