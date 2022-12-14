@@ -6,4 +6,6 @@ module hellofX {
 	
 	opens application to javafx.fxml;
 	exports application;
+	
+	requires ChessModelModule;
 }
