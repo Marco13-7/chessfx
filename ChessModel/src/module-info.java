@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Sharko
+ *
+ */
+module ChessModel {
+}
