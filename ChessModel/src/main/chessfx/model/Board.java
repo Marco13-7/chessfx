@@ -9,6 +9,7 @@ public class Board {
 	
 	public Board() {
 		squares = new ArrayList<>();
+		initializeRegularBoard();
 	}
 	
 	private void initializeRegularBoard() {
@@ -17,6 +18,12 @@ public class Board {
 				squares.add(new Square(row, i));
 			}
 		}		
+	}
+	
+	public void printBoard() {
+		for(Square s: squares) {
+			System.out.println(s);
+		}
 	}
 
 }

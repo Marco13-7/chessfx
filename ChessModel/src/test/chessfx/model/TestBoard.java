@@ -11,6 +11,7 @@ class TestBoard {
 	@Test
 	void test() {
 		Board b = new Board();
+		b.printBoard();
 	}
 
 }
